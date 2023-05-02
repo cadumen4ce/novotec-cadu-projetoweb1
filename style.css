@@ -1,0 +1,39 @@
+nav{
+    background-color: darkcyan;
+    /* Manipulação de elementos de forma dinâmica */
+    /* Torna o layout flexivel */
+    display: flex;
+    /* Alinha os itens para o centro */
+    align-items: center;
+    /* Cria espaçamento entre os itens, between - entre eles */
+    justify-content: space-between;
+}
+nav ul {
+    /* Torna o layout flexivel */
+    display: flex;
+    /* Alinha os itens para o centro */
+    align-items: center;
+    /* Retira a estilização padrão da lista não ordenada */
+    list-style: none;
+    /* Espaçamento entre o objeto e a margem */
+    padding: 10px;
+}
+nav li {
+    /* Definir distância (no caso da esquerda) dos elemntos li (list item) do código */
+    /* Espaçamento entre eles  */
+    margin-left: 40px;
+}
+nav li a {
+    /* Tira o sublinhado padrão do texto com href */
+    text-decoration: none;
+    /* Como é uma tag texto use o color para mudar em direto */
+    color: white;
+    /* Define o padrão de tamanho da fonte */
+    font-size: 20px;
+}
+nav .logo a {
+    /* Tira o sublinhado padrão do texto com href */
+    text-decoration: none;
+    /* Como é uma tag texto use o color para mudar em direto */
+    color: white;
+}
